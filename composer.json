@@ -1,0 +1,9 @@
+{
+    "name": "asus/lara_0804_p",
+    "autoload": {
+        "psr-4": {
+            "Asus\\Lara0804P\\": "src/"
+        }
+    },
+    "require": {}
+}
