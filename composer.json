@@ -5,5 +5,7 @@
             "Asus\\Lara0804P\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "nesbot/carbon": "^2.71"
+    }
 }
