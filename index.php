@@ -1,6 +1,6 @@
 <?php
 
-require __DIR__.'/bootstrap.php';
+require __DIR__.'/vendor/autoload.php';
 
 // connect to dabase
 try {
@@ -10,6 +10,13 @@ try {
     echo  "Error: ".$e->getMessage()."＜br/＞";
     die();
 }
+
+use Carbon\Carbon;
+echo Carbon::now()->toDateString();            
+=Carbon::createFromFormat('Y-m-d H:i:s', $row->created_at)->diffForHumans();
+                
+
+
 
 ?>
 <!DOCTYPE html>
